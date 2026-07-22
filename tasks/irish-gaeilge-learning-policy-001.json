@@ -22,8 +22,8 @@
     "Document validates against repo docs conventions and is referenced by the content schema task"
   ],
   "resources": [
-    "C:/code/elyos/planning/projects/irish-gaeilge-learning/PLAN.md",
-    "C:/code/elyos/CLAUDE.md",
+    "C:/code/hee-lee-oss/planning/projects/irish-gaeilge-learning/PLAN.md",
+    "C:/code/hee-lee-oss/CLAUDE.md",
     "CEFR level descriptors / can-do statements",
     "TEG (Teastas Eorpach na Gaeilge) level descriptors, Maynooth University",
     "An Caighdean Oifigiuil (2017) reference"

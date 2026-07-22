@@ -4,7 +4,7 @@
 
 ## Executive summary
 
-`irish-gaeilge-learning` is an Elyos good-deed project that builds a **free, openly-licensed,
+`irish-gaeilge-learning` is a Hee-Lee Oss good-deed project that builds a **free, openly-licensed,
 structured course for learning Irish (Gaeilge)** — spoken and written — aligned to the **CEFR**
 and mapped to the **TEG** (Teastas Eorpach na Gaeilge) level descriptors, with **native-speaker
 review of every piece of Irish that ships**. It exists to support **language revitalization**:
@@ -13,7 +13,7 @@ language, and to give teachers and community groups a reusable Open Educational 
 they can adapt freely.
 
 The work runs in the **donated lane**: a human runs their own coding agent interactively to draft
-lesson scaffolding, exercises, and supporting tooling, then opens PRs; the Elyos CLI only prepares
+lesson scaffolding, exercises, and supporting tooling, then opens PRs; the Hee-Lee Oss CLI only prepares
 workspaces and opens PRs. The project is **medium risk tier** — the risk is **language accuracy**
 and **cultural fidelity** in a living minority language. The binding control for that risk is a
 **qualified native/near-near-native reviewer sign-off** on all Irish content before it is marked
@@ -251,7 +251,7 @@ need to adapt; any controlled-access or person-identifying dataset.
 - **Pilot learner data** (M2+): collect the **minimum** needed for pre/post can-do measurement,
   **consented**, **aggregated/de-identified** in any published outcome report, never sold, with a
   retention/deletion policy. No person-level learner data is published.
-- **No secrets/PII in logs, receipts, or committed files** (Elyos rule).
+- **No secrets/PII in logs, receipts, or committed files** (Hee-Lee Oss rule).
 
 **Attribution.** Every published unit ships an `attribution.txt` / provenance block listing each
 asset's source, licence, and required attribution verbatim. Share-alike obligations (CC BY-SA) are
@@ -335,7 +335,7 @@ TASKS backlog.
 
 The itemised backlog — milestone task tables, sizes, risk, dependencies, reviewers, acceptance
 criteria, and the milestone Definitions of Done — lives in **[TASKS.md](./TASKS.md)**. Each task
-maps to an Elyos Task JSON validated against `packages/schema/src/schemas.ts`. The first robust
+maps to a Hee-Lee Oss Task JSON validated against `packages/schema/src/schemas.ts`. The first robust
 backlog spans **M0–M3 with 23 tasks across 4 milestones**, plus a sized-but-unscheduled backlog.
 
 ## Governance, roles & stakeholders
@@ -367,8 +367,8 @@ backlog spans **M0–M3 with 23 tasks across 4 milestones**, plus a sized-but-un
   voice talent for new recordings.
 - **Tooling/libraries:** static-site generator (Astro/Eleventy), schema validator (Ajv),
   spaced-repetition export format (Anki/CSV), audio normalisation tools — all open-source.
-- **Elyos pieces:** the CLI (workspace prep + PRs, donated lane), the Task schema
-  (`packages/schema`), and Elyos governance/guardrails (CLAUDE.md, good-deed-definition.md).
+- **Hee-Lee Oss pieces:** the CLI (workspace prep + PRs, donated lane), the Task schema
+  (`packages/schema`), and Hee-Lee Oss governance/guardrails (CLAUDE.md, good-deed-definition.md).
 - **No funded-lane / API-key dependency in v0.1** (donated lane only; funded use deferred — §6/§12).
 
 ## Risks & mitigations
@@ -436,12 +436,12 @@ backlog spans **M0–M3 with 23 tasks across 4 milestones**, plus a sized-but-un
 
 ## References
 
-- `C:\code\elyos\CLAUDE.md` — Elyos work rules, lanes, quality bar, refusal guardrails.
-- `C:\code\elyos\docs\good-deed-definition.md` — the 5 criteria + risk tiers.
-- `C:\code\elyos\packages\schema\src\schemas.ts` — the Task JSON schema TASKS.md maps to.
-- `C:\code\elyos\planning\ROADMAP.md` — portfolio context (Track 4; this project listed as
+- `C:\code\hee-lee-oss\CLAUDE.md` — Hee-Lee Oss work rules, lanes, quality bar, refusal guardrails.
+- `C:\code\hee-lee-oss\docs\good-deed-definition.md` — the 5 criteria + risk tiers.
+- `C:\code\hee-lee-oss\packages\schema\src\schemas.ts` — the Task JSON schema TASKS.md maps to.
+- `C:\code\hee-lee-oss\planning\ROADMAP.md` — portfolio context (Track 4; this project listed as
   ⚪ selected, medium risk).
-- `C:\code\elyos\planning\projects\vital-info-translations\{PLAN,TASKS}.md` — the proven
+- `C:\code\hee-lee-oss\planning\projects\vital-info-translations\{PLAN,TASKS}.md` — the proven
   licence/provenance + review-gate pattern this plan adapts.
 - CEFR (Common European Framework of Reference for Languages) — level descriptors / can-do
   statements.
@@ -526,7 +526,7 @@ A completeness/correctness review was performed on the revised plan and tasks:
   including the headline accuracy, dialect, licence, and privacy risks.
 - **Licence / PII / expert-review guardrails present?** Yes — §7 (allow-list, snapshot hashes,
   conservative exclusion, no scraping, voice-as-PII, adults-only, de-identified pilot data) and §8
-  (native-speaker sign-off + second reviewer for high-risk items) satisfy Elyos guardrails for a
+  (native-speaker sign-off + second reviewer for high-risk items) satisfy Hee-Lee Oss guardrails for a
   medium-risk minority-language project.
 - **Sequencing sound?** Yes — M0 is partner-independent (policy, schema, gates, one reviewed unit);
   M1 makes it repeatable + recruits reviewers; M2 requires a secured partner (`verifiedNeed` flips

@@ -5,9 +5,9 @@
 The backlog for the `irish-gaeilge-learning` good-deed project. Read alongside
 [PLAN.md](./PLAN.md). Milestones (M0–M3) match the roadmap there.
 
-## How these tasks map to Elyos
+## How these tasks map to Hee-Lee Oss
 
-Each task below becomes an **Elyos Task JSON** validated against
+Each task below becomes an **Hee-Lee Oss Task JSON** validated against
 `packages/schema/src/schemas.ts`. Field mapping:
 
 - **id** — stable slug id, e.g. `irish-gaeilge-learning-policy-001` (table column `ID`).
@@ -283,8 +283,8 @@ not Irish course content (course content ships under **CC BY-SA 4.0**).
     "Document validates against repo docs conventions and is referenced by the content schema task"
   ],
   "resources": [
-    "C:/code/elyos/planning/projects/irish-gaeilge-learning/PLAN.md",
-    "C:/code/elyos/CLAUDE.md",
+    "C:/code/hee-lee-oss/planning/projects/irish-gaeilge-learning/PLAN.md",
+    "C:/code/hee-lee-oss/CLAUDE.md",
     "CEFR level descriptors / can-do statements",
     "TEG (Teastas Eorpach na Gaeilge) level descriptors, Maynooth University",
     "An Caighdean Oifigiuil (2017) reference"
